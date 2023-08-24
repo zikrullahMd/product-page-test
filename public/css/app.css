@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap);
 @charset "UTF-8";
 *,
 *::before,
@@ -7,6 +8,7 @@
 
 body, html {
   margin: 0;
+  height: 100%;
 }
 
 /* Reapply the pointer cursor for anchor tags */
@@ -90,4 +92,8 @@ meter {
 /* Revert Modal native behavior */
 :where(dialog:modal) {
   all: revert;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
 }
