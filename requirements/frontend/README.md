@@ -3,7 +3,8 @@
 ## Description:
 Your task is to build out a product page using the designs from [here](./designs/desktop-design.jpg). A [style guide](./style-guide.md) is also provided to reference the different colours available.
 
-## Installation
+## Installation & Setup
+Before you begin developing, create a branch from master and name it `firstName_lastNameInitial`, e.g. `git checkout -b james_g` and publish the branch to the remote repo.
 - Configure the application by running `composer install && npm install`
 - To run the application you need a minimum of php7.3 to serve the application. Once php is installed you may run `php artisan serve`
 - Open a second terminal and run `npm run watch`
