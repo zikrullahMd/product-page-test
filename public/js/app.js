@@ -19796,8 +19796,13 @@ var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createRouter)({
   history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHashHistory)(),
   routes: [{
     path: '/',
-    component: {
-      template: ''
+    redirect: function redirect() {
+      return {
+        name: 'product',
+        params: {
+          slug: 'fall-limited-edition-sneakers'
+        }
+      };
     }
   }, {
     path: '/shop/product/:slug',
